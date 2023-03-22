@@ -1,5 +1,6 @@
 import React from 'react';
 import { Cat } from '../../types/Cat';
+import { Button } from '../shared/Button';
 
 type Props = {
   cat: Cat;
@@ -24,7 +25,13 @@ export const BlockItem: React.FC<Props> = ({ cat }) => {
         <p className="blockItem__content__desc">
           {`Say hello to a sweet ${cat.breed} cat. ${cat.sex === 'f' ? 'She' : 'He'} was born in ${cat.born} and loves to ${cat.hobby}.`}
         </p>
+
+        <Button
+          link="https://living.greatpetcare.com/at-home/why-are-cats-so-cute/"
+          text="Learn more"
+        />
       </div>
+
     </div>
   );
 };
