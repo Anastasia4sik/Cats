@@ -113,4 +113,8 @@
       }
     }
   }
+
+  &.visible {
+    transform: translateX(0);
+  }
 }

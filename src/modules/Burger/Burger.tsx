@@ -1,11 +1,22 @@
-import React from 'react';
+import React, { memo } from 'react';
+import classNames from 'classnames';
 import { Link } from 'react-router-dom';
 import { BurgerList } from '../BurgerList/BurgerList';
 import { Logo } from '../shared/Logo';
 import catsFromServer from '../../api/cats.json';
 
-export const Burger:React.FC = () => (
-  <nav className="page__menu menu" id="menu">
+type Props = {
+  isVisible: boolean;
+};
+
+export const Burger:React.FC<Props> = memo(({ isVisible }) => (
+  <nav
+    className={classNames(
+      'page__menu menu',
+      { visible: isVisible },
+    )}
+    id="menu"
+  >
     <div className="container">
       <div className="menu__content">
         <div className="menu__top">
@@ -29,4 +40,4 @@ export const Burger:React.FC = () => (
       </div>
     </div>
   </nav>
-);
+));
