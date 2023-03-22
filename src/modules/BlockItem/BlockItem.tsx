@@ -27,7 +27,7 @@ export const BlockItem: React.FC<Props> = ({ cat }) => {
         </p>
 
         <Button
-          link="https://living.greatpetcare.com/at-home/why-are-cats-so-cute/"
+          link={cat.link}
           text="Learn more"
         />
       </div>

@@ -1,4 +1,5 @@
 import React from 'react';
+import { Arrow } from '../shared/Arrow/Arrow';
 import { Button } from '../shared/Button';
 import { Icon } from '../shared/Icon';
 import { Logo } from '../shared/Logo';
@@ -9,6 +10,7 @@ export const Header: React.FC = () => (
       <div className="header__content">
         <div className="header__top">
           <Logo />
+          <Arrow rotate={90} isUp={false} />
 
           <div className="header__nav-icons">
             <Icon />

@@ -23,13 +23,4 @@
       font-size: 80px;
     }
   }
-
-  &__arrow {
-    display: block;
-    margin: 24px auto 0;
-    @include square(24px);
-    transform: rotate(91deg);
-
-    background-color: #0000006e;
-  }
 }

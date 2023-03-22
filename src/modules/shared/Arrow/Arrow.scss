@@ -1,0 +1,18 @@
+
+.arrow {
+  display: block;
+  position: absolute;
+  bottom: 50%;
+  margin: 24px auto 0;
+  @include square(24px);
+
+  &__up {
+    position: relative;
+    bottom: 24px;
+  }
+
+
+  &:focus {
+    background-color: $bc-color;
+  }
+}

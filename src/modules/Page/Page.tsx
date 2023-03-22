@@ -6,6 +6,7 @@ import { Burger } from '../Burger';
 import { Header } from '../Header';
 import catsFromServer from '../../api/cats.json';
 import { Banner } from '../Banner';
+import { Arrow } from '../shared/Arrow';
 
 export const Page: React.FC = () => {
   const { hash } = useLocation();
@@ -27,6 +28,8 @@ export const Page: React.FC = () => {
       <Burger isVisible={isMenuVisible} />
 
       <Block cats={catsFromServer} />
+
+      <Arrow rotate={270} isUp />
     </div>
   );
 };

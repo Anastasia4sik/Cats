@@ -5,5 +5,6 @@ export interface Cat {
   img: string;
   born: number;
   hobby: string;
+  link: string;
   slug: string;
 }
