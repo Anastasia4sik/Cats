@@ -1,0 +1,34 @@
+[
+  {
+    "name": "Milka",
+    "sex": "f",
+    "breed": "calico",
+    "img": "https://images.unsplash.com/photo-1582725461742-8ecd962c260d?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=387&q=80",
+    "born": 2022,
+    "slug": "milka-calico-2022"
+  },
+  {
+    "name": "Oskar",
+    "sex": "m",
+    "breed": "ginger",
+    "img": "https://images.unsplash.com/photo-1587996833651-06a23343b15d?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1169&q=80",
+    "born": 2023,
+    "slug": "simba-ginger-2023"
+  },
+  {
+    "name": "Nala",
+    "sex": "f",
+    "breed": "british",
+    "img": "https://images.unsplash.com/photo-1629624467541-f73ef8f12df2?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8M3x8YnJpdGlzaCUyMGNhdHxlbnwwfHwwfHw%3D&auto=format&fit=crop&w=500&q=60",
+    "born": 2021,
+    "slug": "nala-british-2021"
+  },
+  {
+    "name": "Sheldon",
+    "sex": "m",
+    "breed": "american bobtail",
+    "img": "https://images.unsplash.com/photo-1573865526739-10659fec78a5?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=415&q=80",
+    "born": 2018,
+    "slug": "tiger-bobtail-2018"
+  }
+]

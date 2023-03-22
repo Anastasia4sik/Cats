@@ -1,0 +1,28 @@
+@mixin onTablet {
+  @media (min-width: 640px) {
+    @content;
+  }
+}
+
+@mixin onDesktop {
+  @media (min-width: 1200px) {
+    @content;
+  }
+}
+
+@mixin top-actions {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+@mixin horizontal {
+  @media (max-height: 510px) {
+    @content;
+  }
+}
+
+@mixin square($size) {
+  width: $size;
+  height: $size;
+}

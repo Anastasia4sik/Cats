@@ -1,0 +1,9 @@
+@import './utils/vars';
+@import './utils/mixins';
+@import './utils/normalize';
+@import './utils/reset';
+
+@import './modules/shared/Icon/Icon.scss';
+@import './modules/Burger/Burger.scss';
+@import './modules/Header/Header.scss';
+@import './modules/Page/Page.scss';
