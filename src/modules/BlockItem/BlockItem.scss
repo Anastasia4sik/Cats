@@ -1,4 +1,5 @@
 .blockItem {
+  position: relative;
   display: flex;
   flex-direction: column;
   margin-bottom: $section-mob-m-bottom;
@@ -30,8 +31,6 @@
         transform:scale(1.05);
       }
     }
-
-
   }
 
   &__content {

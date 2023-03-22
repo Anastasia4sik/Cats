@@ -7,7 +7,7 @@ type Props = {
 
 export const BlockItem: React.FC<Props> = ({ cat }) => {
   return (
-    <div className="blockItem">
+    <div id={`${cat.slug}`} className="blockItem">
       <div className="blockItem__photo">
         <img
           src={cat.img}

@@ -4,7 +4,7 @@ import { Icon } from '../shared/Icon';
 import { Logo } from '../shared/Logo';
 
 export const Header: React.FC = () => (
-  <header className="main-container header">
+  <header id="Home" className="main-container header">
     <div className="container">
       <div className="header__content">
         <div className="header__top">

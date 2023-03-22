@@ -4,7 +4,7 @@ import logo from '../../../images/logo.png';
 
 export const Logo: React.FC = () => (
   <Link
-    to="/"
+    to="#Home"
     className="logo"
   >
     <img
