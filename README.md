@@ -30,6 +30,15 @@ I used React to reuse the code with the help of functional components and to use
 ---
 <br>
 
+<a href="https://www.typescriptlang.org/">
+  <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/typescript/typescript-original.svg" height="48"/>
+</a>
+
+TypeScript was used in this project for convenient data typing, in particular, the data that was pulled from the API. TypeScript really made the work easier in this way.
+
+---
+<br>
+
 <a href="https://developer.mozilla.org/ru/docs/Web/HTML">
   <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/html5/html5-original-wordmark.svg" height="48"/>
 </a> <br>
