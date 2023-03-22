@@ -5,7 +5,7 @@ import { Logo } from '../shared/Logo';
 import catsFromServer from '../../api/cats.json';
 
 export const Burger:React.FC = () => (
-  <nav className="main-container page__menu menu" id="menu">
+  <nav className="page__menu menu" id="menu">
     <div className="container">
       <div className="menu__content">
         <div className="menu__top">
