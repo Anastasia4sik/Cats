@@ -2,3 +2,8 @@ $bc-color: #f9f4ee;
 
 $main-color: #3a2f2c;
 $brown: #573c2b;
+
+$section-mob-m-bottom: 90px;
+$section-tablet-m-bottom: calc(#{$section-mob-m-bottom} / 3 * 4);
+$section-desktop-m-bottom: calc(#{$section-tablet-m-bottom} / 3 * 4);
+

@@ -4,5 +4,6 @@ export interface Cat {
   breed: string;
   img: string;
   born: number;
+  hobby: string;
   slug: string;
 }
