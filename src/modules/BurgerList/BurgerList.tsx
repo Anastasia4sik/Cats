@@ -1,5 +1,5 @@
 import React from 'react';
-import { Link } from 'react-router-dom';
+import { NavLink } from 'react-router-dom';
 import { Cat } from '../../types/Cat';
 
 type Props = {
@@ -11,9 +11,9 @@ export const BurgerList: React.FC<Props> = ({ cats }) => {
     <ul className="menu__list">
       {cats.map(cat => (
         <li key={cat.slug} className="menu__item">
-          <Link to={`#${cat.slug}`} className="menu__link">
+          <NavLink to={`#${cat.slug}`} className="menu__link">
             {cat.name}
-          </Link>
+          </NavLink>
         </li>
       ))}
     </ul>

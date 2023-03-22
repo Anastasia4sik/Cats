@@ -16,7 +16,7 @@ export const Header: React.FC = () => (
         </div>
 
         <h1 className="header__title">
-          Meow the Cat
+          Choose the cat!
         </h1>
 
         <Button
