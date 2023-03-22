@@ -1,5 +1,6 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
+import logo from '../../../images/logo.png';
 
 export const Logo: React.FC = () => (
   <Link
@@ -8,7 +9,7 @@ export const Logo: React.FC = () => (
   >
     <img
       className="logo__img"
-      src="../../../images/logo.png"
+      src={logo}
       alt="Cat"
     />
   </Link>

@@ -4,28 +4,22 @@
   background-image: url('../../images/bc_header.png');
   background-repeat: no-repeat;
   background-size: cover;
-  background-position: center;
-
-  @include onTablet {
-    background-position: center;
-  }
+  background-position: bottom;
 
   @include onDesktop {
     margin-bottom: 120px;
-    background-position: center;
   }
 
   &__top {
     @include top-actions;
+    margin-bottom: 20vh;
   }
 
   &__content {
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
+    display: block;
 
     height: 100vh;
-    padding: 29px 0 88px;
+    padding: 18px 0 50vh;
 
     @include onDesktop {
       padding-bottom: 203px;
@@ -38,14 +32,14 @@
   }
 
   &__title {
-
     text-align: center;
 
     font-size: 36px;
-    letter-spacing: -1.5px;
     line-height: 100%;
+    font-family: Roboto-Bold;
 
-    color: #fff;
+    color: $brown;
+    margin-bottom: 64px;
 
     @include onTablet {
       font-size: 64px;

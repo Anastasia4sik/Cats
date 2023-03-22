@@ -1,14 +1,21 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
+import { Cat } from '../../types/Cat';
 
-export const BurgerList: React.FC = () => (
-  <ul className="menu__list">
-    {['Home', 'Milka', 'Oskar', 'Nala', 'Sheldon'].map(item => (
-      <li key={item} className="menu__item">
-        <Link to={`#${item}`} className="menu__link">
-          {item}
-        </Link>
-      </li>
-    ))}
-  </ul>
-);
+type Props = {
+  cats: Cat[];
+};
+
+export const BurgerList: React.FC<Props> = ({ cats }) => {
+  return (
+    <ul className="menu__list">
+      {cats.map(cat => (
+        <li key={cat.slug} className="menu__item">
+          <Link to={`#${cat.name}`} className="menu__link">
+            {cat.name}
+          </Link>
+        </li>
+      ))}
+    </ul>
+  );
+};
