@@ -1,4 +1,6 @@
 .page {
+  overflow-x: hidden;
+
   &__menu {
     position: fixed;
     top: 0;
