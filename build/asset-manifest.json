@@ -1,14 +1,14 @@
 {
   "files": {
-    "main.css": "/Cats/static/css/main.040d4d29.chunk.css",
-    "main.js": "/Cats/static/js/main.7236282f.chunk.js",
-    "main.js.map": "/Cats/static/js/main.7236282f.chunk.js.map",
+    "main.css": "/Cats/static/css/main.f160ff41.chunk.css",
+    "main.js": "/Cats/static/js/main.8a255217.chunk.js",
+    "main.js.map": "/Cats/static/js/main.8a255217.chunk.js.map",
     "runtime-main.js": "/Cats/static/js/runtime-main.51d2aeca.js",
     "runtime-main.js.map": "/Cats/static/js/runtime-main.51d2aeca.js.map",
     "static/js/2.6d62ffe4.chunk.js": "/Cats/static/js/2.6d62ffe4.chunk.js",
     "static/js/2.6d62ffe4.chunk.js.map": "/Cats/static/js/2.6d62ffe4.chunk.js.map",
     "index.html": "/Cats/index.html",
-    "static/css/main.040d4d29.chunk.css.map": "/Cats/static/css/main.040d4d29.chunk.css.map",
+    "static/css/main.f160ff41.chunk.css.map": "/Cats/static/css/main.f160ff41.chunk.css.map",
     "static/js/2.6d62ffe4.chunk.js.LICENSE.txt": "/Cats/static/js/2.6d62ffe4.chunk.js.LICENSE.txt",
     "static/media/main.scss": "/Cats/static/media/phone.235a04e9.svg",
     "static/media/logo.ab004c18.png": "/Cats/static/media/logo.ab004c18.png"
@@ -16,7 +16,7 @@
   "entrypoints": [
     "static/js/runtime-main.51d2aeca.js",
     "static/js/2.6d62ffe4.chunk.js",
-    "static/css/main.040d4d29.chunk.css",
-    "static/js/main.7236282f.chunk.js"
+    "static/css/main.f160ff41.chunk.css",
+    "static/js/main.8a255217.chunk.js"
   ]
 }
