@@ -5,6 +5,12 @@
   background-position: center;
   background-size: cover;
 
+  margin-bottom: 60px;
+
+  @include onDesktop {
+    margin-bottom: 80px;
+  }
+
   &__title {
     text-align: center;
 

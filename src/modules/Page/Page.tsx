@@ -21,11 +21,12 @@ export const Page: React.FC = () => {
 
   return (
     <div className="page__body">
-      <Banner />
 
       <Header />
 
       <Burger isVisible={isMenuVisible} />
+
+      <Banner />
 
       <Block cats={catsFromServer} />
 
