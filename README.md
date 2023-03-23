@@ -1,7 +1,7 @@
 # Cats
 <h1>The Walchen lake</h1>
 <p>
-Do you like cats? Let's enjoy them together!
+Do you like cats? I present you a site about the cutest cats that is made using the most modern technologies. Enjoy it!
 </p>
 
 [DEMO LINK](https://anastasia4sik.github.io/Cats/)
