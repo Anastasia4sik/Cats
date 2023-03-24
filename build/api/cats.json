@@ -1,0 +1,42 @@
+[
+  {
+    "name": "Milka",
+    "sex": "f",
+    "breed": "calico",
+    "img": "https://images.unsplash.com/photo-1582725461742-8ecd962c260d?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=387&q=80",
+    "born": 2022,
+    "hobby": "play",
+    "link": "https://www.thesprucepets.com/calico-cats-profile-554694",
+    "slug": "milka-calico-2022"
+  },
+  {
+    "name": "Oskar",
+    "sex": "m",
+    "breed": "tabby",
+    "img": "https://images.unsplash.com/photo-1470129913137-0fd7ddb58760?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=387&q=80",
+    "born": 2023,
+    "hobby": "eat",
+    "link": "https://www.thesprucepets.com/all-about-tabby-cats-552489",
+    "slug": "oskar-tabby-2023"
+  },
+  {
+    "name": "Mimoza",
+    "sex": "f",
+    "breed": "british",
+    "img": "https://images.unsplash.com/photo-1676932963209-e3d77c7881a8?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=387&q=80",
+    "born": 2021,
+    "hobby": "sleep",
+    "link": "https://www.thesprucepets.com/british-shorthair-5219450",
+    "slug": "nala-british-2021"
+  },
+  {
+    "name": "Sheldon",
+    "sex": "m",
+    "breed": "american bobtail",
+    "img": "https://images.unsplash.com/photo-1573865526739-10659fec78a5?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=415&q=80",
+    "born": 2018,
+    "hobby": "be petted",
+    "link": "https://www.thesprucepets.com/american-bobtail-full-profile-history-and-care-4705973",
+    "slug": "sheldon-bobtail-2018"
+  }
+]

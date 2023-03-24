@@ -1,43 +1,54 @@
-import React, { memo } from 'react';
+import React, { memo, useEffect, useState } from 'react';
 import classNames from 'classnames';
 import { Link } from 'react-router-dom';
 import { BurgerList } from '../BurgerList/BurgerList';
 import { Logo } from '../shared/Logo';
-import catsFromServer from '../../api/cats.json';
+import { getCats } from '../../helpers/api';
+import { Cat } from '../../types/Cat';
 
 type Props = {
   isVisible: boolean;
 };
 
-export const Burger:React.FC<Props> = memo(({ isVisible }) => (
-  <nav
-    className={classNames(
-      'page__menu menu',
-      { visible: isVisible },
-    )}
-    id="menu"
-  >
-    <div className="container">
-      <div className="menu__content">
-        <div className="menu__top">
-          <Logo />
+export const Burger: React.FC<Props> = memo(({ isVisible }) => {
+  const [cats, setCats] = useState<Cat[]>([]);
 
-          <Link to="/" className="icon icon--cross"></Link>
-        </div>
+  useEffect(() => {
+    getCats().then(data => {
+      setCats(data);
+    });
+  }, []);
 
-        <BurgerList cats={catsFromServer} />
+  return (
+    <nav
+      className={classNames(
+        'page__menu menu',
+        { visible: isVisible },
+      )}
+      id="menu"
+    >
+      <div className="container">
+        <div className="menu__content">
+          <div className="menu__top">
+            <Logo />
 
-        <div className="menu__call-container">
-          <Link
-            to="+1 234 5555-55-55"
-            className="
+            <Link to="/" className="icon icon--cross"></Link>
+          </div>
+
+          <BurgerList cats={cats} />
+
+          <div className="menu__call-container">
+            <Link
+              to="+1 234 5555-55-55"
+              className="
                 menu__call
                 menu__call--phone"
-          >
-            +1 234 5555-55-55
-          </Link>
+            >
+              +1 234 5555-55-55
+            </Link>
+          </div>
         </div>
       </div>
-    </div>
-  </nav>
-));
+    </nav>
+  );
+});

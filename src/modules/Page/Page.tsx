@@ -1,15 +1,15 @@
 /* eslint-disable no-console */
-import React, { useEffect, useState } from 'react';
+import React, { memo, useEffect, useState } from 'react';
 import { useLocation } from 'react-router-dom';
 import { Block } from '../Block';
-import { Burger } from '../Burger';
 import { Header } from '../Header';
 import { Banner } from '../Banner';
 import { Arrow } from '../shared/Arrow';
 import { Cat } from '../../types/Cat';
 import { getCats } from '../../helpers/api';
+import { Burger } from '../Burger';
 
-export const Page: React.FC = () => {
+export const Page: React.FC = memo(() => {
   const [cats, setCats] = useState<Cat[]>([]);
 
   const { hash } = useLocation();
@@ -42,4 +42,4 @@ export const Page: React.FC = () => {
       <Arrow rotate={270} isUp />
     </div>
   );
-};
+});
