@@ -1,22 +1,22 @@
 {
   "files": {
     "main.css": "/Cats/static/css/main.11db9c24.chunk.css",
-    "main.js": "/Cats/static/js/main.2ea0448b.chunk.js",
-    "main.js.map": "/Cats/static/js/main.2ea0448b.chunk.js.map",
+    "main.js": "/Cats/static/js/main.d130eb0e.chunk.js",
+    "main.js.map": "/Cats/static/js/main.d130eb0e.chunk.js.map",
     "runtime-main.js": "/Cats/static/js/runtime-main.51d2aeca.js",
     "runtime-main.js.map": "/Cats/static/js/runtime-main.51d2aeca.js.map",
-    "static/js/2.96a0eab3.chunk.js": "/Cats/static/js/2.96a0eab3.chunk.js",
-    "static/js/2.96a0eab3.chunk.js.map": "/Cats/static/js/2.96a0eab3.chunk.js.map",
+    "static/js/2.9a4fba4e.chunk.js": "/Cats/static/js/2.9a4fba4e.chunk.js",
+    "static/js/2.9a4fba4e.chunk.js.map": "/Cats/static/js/2.9a4fba4e.chunk.js.map",
     "index.html": "/Cats/index.html",
     "static/css/main.11db9c24.chunk.css.map": "/Cats/static/css/main.11db9c24.chunk.css.map",
-    "static/js/2.96a0eab3.chunk.js.LICENSE.txt": "/Cats/static/js/2.96a0eab3.chunk.js.LICENSE.txt",
+    "static/js/2.9a4fba4e.chunk.js.LICENSE.txt": "/Cats/static/js/2.9a4fba4e.chunk.js.LICENSE.txt",
     "static/media/main.scss": "/Cats/static/media/phone.235a04e9.svg",
     "static/media/logo.ab004c18.png": "/Cats/static/media/logo.ab004c18.png"
   },
   "entrypoints": [
     "static/js/runtime-main.51d2aeca.js",
-    "static/js/2.96a0eab3.chunk.js",
+    "static/js/2.9a4fba4e.chunk.js",
     "static/css/main.11db9c24.chunk.css",
-    "static/js/main.2ea0448b.chunk.js"
+    "static/js/main.d130eb0e.chunk.js"
   ]
 }
