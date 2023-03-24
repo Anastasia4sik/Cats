@@ -3,9 +3,9 @@ import { Link } from 'react-router-dom';
 
 export const Icon: React.FC = () => (
   <>
-    <Link to="tel:+12 345 678-90-12" className="icon icon--call">
+    <Link to="tel:+380506105285" className="icon icon--call">
       <div className="icon__tooltip">
-        +12 345 678-90-12
+        +380506105285
       </div>
     </Link>
 
