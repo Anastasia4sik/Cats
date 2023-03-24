@@ -1,10 +1,10 @@
 # Cats
 <h1>The Walchen lake</h1>
 <p>
-Do you like cats? I present you a site about the cutest cats that is made using the most modern technologies. Enjoy it!
+Beautiful photos from the best places in the world for you to notice in your plans where to go on vacation next time Enjoy it!
 </p>
 
-[DEMO LINK](https://anastasia4sik.github.io/Cats/)
+[DEMO LINK](https://anastasia4sik.github.io/Walchen_Lake_React/)
 
 <h2>Stack technologies I used:</h2>
 <br>
